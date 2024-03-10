@@ -1,3 +1,4 @@
+// ! COMPOUNED COMPONENTS
 import React, { createContext, useContext, useState } from 'react';
 import AccordionItem from './AccordionItem';
 import AccordionTitle from './AccordionTitle';
@@ -38,7 +39,8 @@ function Accordion({ children, className }) {
 
 export default Accordion;
 
-// Item was added as a key to the Accordion function object
+// ! COMPOUNED COMPONENTS
+// Item, etc. were added as a key to the Accordion function object
 Accordion.Item = AccordionItem;
 Accordion.Title = AccordionTitle;
 Accordion.Content = AccordionContent;
